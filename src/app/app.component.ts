@@ -16,7 +16,6 @@ export class AppComponent implements OnInit{
       new Date(),
       12,
       'https://dummyimage.com/600x400/000/fff',
-      'Oh snap!'
     );
   }
 
