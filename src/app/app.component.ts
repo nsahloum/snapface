@@ -7,10 +7,17 @@ import {FaceSnap} from "./models/face-snap.model";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  faceSnap!: FaceSnap;
+  mySnap!: FaceSnap;
 
   ngOnInit() {
-    this.faceSnap = new FaceSnap('Hello', 'Hello World', new Date(), 12, 'https://dummyimage.com/600x400/000/fff', 'Oh snap!');
+    this.mySnap = new FaceSnap(
+      'Hello',
+      'Hello World',
+      new Date(),
+      12,
+      'https://dummyimage.com/600x400/000/fff',
+      'Oh snap!'
+    );
   }
 
 }
