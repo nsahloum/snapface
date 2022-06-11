@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
         title: 'Hello',
         description: 'Hello World',
         createdDate: new Date(),
-        snaps: 12,
+        snaps: 0,
         imageUrl: 'https://dummyimage.com/600x400/000/fff',
         location: 'Brussels'
       },
